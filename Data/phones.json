@@ -52,5 +52,14 @@
     "Stock": 50,
     "ReleaseDate": "2026-01-17T12:50:26.6124824+01:00",
     "IsActive": true
+  },
+  {
+    "Id": 7,
+    "Brand": "oki",
+    "Model": "pimpum",
+    "Price": 10,
+    "Stock": 97,
+    "ReleaseDate": "2026-05-31T20:36:20.1148398+02:00",
+    "IsActive": true
   }
 ]
