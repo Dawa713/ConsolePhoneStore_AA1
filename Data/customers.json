@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "Name": "admin",
+    "Email": "admin@mail.com",
+    "Password": "admin123",
+    "Role": "ADMIN",
+    "CreatedAt": "2026-01-16T12:15:22.4587722+01:00",
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+    "Name": "paco",
+    "Email": "paco@mail.com",
+    "Password": "paco123",
+    "Role": "ADMIN",
+    "CreatedAt": "2026-01-16T12:15:22.4619852+01:00",
+    "IsActive": true
+  },
+  {
+    "Id": 3,
+    "Name": "placido",
+    "Email": "placido@mail.com",
+    "Password": "placido",
+    "Role": "CLIENT",
+    "CreatedAt": "2026-01-16T12:15:22.4620767+01:00",
+    "IsActive": true
+  },
+  {
+    "Id": 4,
+    "Name": "aaaa",
+    "Email": "aaaa@aaaa.com",
+    "Password": "666666",
+    "Role": "CLIENT",
+    "CreatedAt": "2026-01-17T12:29:53.9710439+01:00",
+    "IsActive": true
+  },
+  {
+    "Id": 5,
+    "Name": "a",
+    "Email": "a@a.com",
+    "Password": "aaaaaa",
+    "Role": "CLIENT",
+    "CreatedAt": "2026-01-17T12:30:42.4482217+01:00",
+    "IsActive": true
+  }
+]
