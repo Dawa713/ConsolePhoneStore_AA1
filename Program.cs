@@ -87,17 +87,25 @@ class Program
     break;
 
                     case 3:
-                        Console.Write("Email: ");
-                        string emailLogin = Console.ReadLine() ?? string.Empty;
+    Console.Write("Email: ");
+    string emailLogin = Console.ReadLine() ?? string.Empty;
 
-                        Console.Write("Contraseña: ");
-                        string passLogin = Console.ReadLine() ?? string.Empty;
+    Console.Write("Contraseña: ");
+    string passLogin = Console.ReadLine() ?? string.Empty;
 
-                        clienteLogueado = CustomerService.Login(emailLogin, passLogin);
-                        Console.WriteLine($"✔️ Bienvenido {clienteLogueado.Name}");
-                       
-                        Console.ReadKey();
-                        break;
+    clienteLogueado = CustomerService.Login(emailLogin, passLogin);
+
+    if (clienteLogueado == null)
+    {
+        Console.WriteLine("❌ Email o contraseña incorrectos");
+    }
+    else
+    {
+        Console.WriteLine($"✔️ Bienvenido {clienteLogueado.Name}");
+    }
+
+    Console.ReadKey();
+    break;
 
                     case 4:
     ConsoleHelper.SafeClear();
