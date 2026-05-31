@@ -1,0 +1,16 @@
+@"
+# .NET
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# User files
+*.user
+*.suo
+
+# Datos de runtime (no subir al repo)
+purchases.txt
+customers.txt
+"@ | Out-File -Encoding utf8 .gitignore
