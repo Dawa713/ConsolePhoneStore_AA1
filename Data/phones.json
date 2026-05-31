@@ -5,7 +5,7 @@
     "Model": "Galaxy S25",
     "Price": 999.99,
     "Stock": 23,
-    "ReleaseDate": "2026-01-16T13:01:06.7042321+01:00",
+    "ReleaseDate": "2026-01-16T12:01:06.7042321+00:00",
     "IsActive": true
   },
   {
@@ -14,7 +14,7 @@
     "Model": "iPhone 17",
     "Price": 1099.99,
     "Stock": 17,
-    "ReleaseDate": "2026-01-16T13:01:06.7042513+01:00",
+    "ReleaseDate": "2026-01-16T12:01:06.7042513+00:00",
     "IsActive": true
   },
   {
@@ -23,7 +23,7 @@
     "Model": "Redmi Note 15",
     "Price": 299.99,
     "Stock": 13,
-    "ReleaseDate": "2026-01-16T13:01:06.7042586+01:00",
+    "ReleaseDate": "2026-01-16T12:01:06.7042586+00:00",
     "IsActive": true
   },
   {
@@ -32,7 +32,7 @@
     "Model": "pixel 9 pro",
     "Price": 1119.99,
     "Stock": 9,
-    "ReleaseDate": "2026-01-16T13:01:35.6895499+01:00",
+    "ReleaseDate": "2026-01-16T12:01:35.6895499+00:00",
     "IsActive": true
   },
   {
@@ -41,7 +41,7 @@
     "Model": "17 ultra",
     "Price": 1999.99,
     "Stock": 10,
-    "ReleaseDate": "2026-01-17T12:12:15.8866496+01:00",
+    "ReleaseDate": "2026-01-17T11:12:15.8866496+00:00",
     "IsActive": true
   },
   {
@@ -50,7 +50,7 @@
     "Model": "1s",
     "Price": 100.50,
     "Stock": 50,
-    "ReleaseDate": "2026-01-17T12:50:26.6124824+01:00",
+    "ReleaseDate": "2026-01-17T11:50:26.6124824+00:00",
     "IsActive": true
   },
   {
@@ -58,8 +58,8 @@
     "Brand": "oki",
     "Model": "pimpum",
     "Price": 10,
-    "Stock": 97,
-    "ReleaseDate": "2026-05-31T20:36:20.1148398+02:00",
+    "Stock": 90,
+    "ReleaseDate": "2026-05-31T18:36:20.1148398+00:00",
     "IsActive": true
   }
 ]
