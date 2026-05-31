@@ -1,0 +1,19 @@
+services:
+  phonestore:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: consolephonestore:latest
+    container_name: phonestore_app
+
+    # OBLIGATORIO para aplicaciones de consola interactivas
+    stdin_open: true   # equivale a docker run -i
+    tty: true          # equivale a docker run -t
+
+    # Volúmenes para persistencia de datos en el host
+    # Los archivos de datos no se pierden al reiniciar el contenedor
+    volumes:
+      - ./data/Data:/app/Data          # customers.json, phones.json
+      - ./data/purchases.txt:/app/purchases.txt  # historial de compras
+
+    restart: "no"  # app de consola: no reiniciar automáticamente
